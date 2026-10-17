@@ -1,0 +1,19 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local paper-trading data
+paper_portfolio.json
+**/paper_portfolio.json
+
+# Local editor settings
+.vscode/

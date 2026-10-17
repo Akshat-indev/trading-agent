@@ -1,0 +1,26 @@
+[project]
+name = "finance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Akshat", email = "akshat.indev@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "finnhub-python>=2.4.29",
+    "langchain>=1.4.6",
+    "langchain-google-genai>=4.4.2",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "streamlit>=1.66.0",
+    "tejhq>=0.3.0",
+]
+
+[project.scripts]
+finance = "finance:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
